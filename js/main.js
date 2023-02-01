@@ -26,10 +26,17 @@ generateButton.addEventListener(
             // LO INTRODUCO NEL GRID
             grid.append(square);
             //FACCIO SI CHE EMETTA IL N IL CONSOLE QUANDO VIENE CLICKATO
-            
+            square.addEventListener(
+                'click',
+                function(click){
+                    console.log(i+1);
+                }
+            )
         }
-        
+        return;
     }
+    
      
 )
+
 
