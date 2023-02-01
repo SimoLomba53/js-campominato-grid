@@ -18,6 +18,8 @@ function multicell(grid){
     for(let i=0;i < 100;i++){
         //CREO IL QUADRATO DA INSERIRE
         const square=document.createElement("div");
+        //ASSEGNO IL NUMERO
+        square.innerHTML=i+1;
         //GLI DO LA CLASSE
         square.classList.add("size");
         // LO INTRODUCO NEL GRID
